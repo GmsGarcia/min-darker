@@ -1,0 +1,32 @@
+{
+  "name": "min-darker-theme",
+  "displayName": "Min Darker Theme",
+  "description": "A dark theme based on Min Theme by Miguel Solorio.",
+  "icon": "imgs/icon.png",
+  "publisher": "gmsgarcia",
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GmsGarcia/min-darker"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "minimal",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Min Darker Theme (by GmsGarcia)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/min-darker-theme.json"
+      }
+    ]
+  }
+}
